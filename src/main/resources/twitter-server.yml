@@ -1,0 +1,20 @@
+# Spring properties
+spring:
+  application:
+     name: twitter-service
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+# HTTP Server
+server:
+  port: 2222   # HTTP (Tomcat) port
+
+twitter:
+  consumerKey: sJha4yqy0lBBuNrtKcQQ7hEPm
+  consumerSecret: q3nLDgIknDP5bj8WUIxoeWkDxyOZK6rvEYyqAoocGVe3WN4B9q
+  accessToken: 120852540-oe9zN8whrVL7RJaI2EPFB46MhMvqNcWN1PYF26oN
+  accessTokenSecret: JiJ2kTtDykytygGlJuIm2xdOW4ZJzIr1V5cqI0odvJoq8
